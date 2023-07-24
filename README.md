@@ -1,8 +1,8 @@
 # Statistical-Analysis-on-Healthcare-Insurance-Data
 Predictive Modeling - Insurance Cost
 
-Level: Beginner to Intermediate 
-Project Name: HEALTHCARE INSURANCE COST ANALYSIS
+Level: Beginner to Intermediate/ 
+Project Name: HEALTHCARE INSURANCE COST ANALYSIS/
 Tool: Python
 Libraries: Numpy, Pandas, Seaborn, Matplotlib
 File Type: Data.csv
