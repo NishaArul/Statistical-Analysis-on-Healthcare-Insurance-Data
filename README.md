@@ -7,26 +7,31 @@ Tool: Python
 Libraries: Numpy, Pandas, Seaborn, Matplotlib
 File Type: Data.csv
 
-Business Problem: The healthcare domain holds immense significance in the market due to its direct impact on individuals' lives. Consequently, remaining proactive in this area is crucial. Money plays a pivotal role, especially considering the potentially exorbitant costs of treatment. For individuals without insurance coverage, this can lead to challenging financial circumstances. Medical insurance companies, too, aim to minimize risks by * optimizing insurance costs *, recognizing that maintaining good health ultimately lies in the hands of each individual. Adopting healthy habits, such as a balanced diet and regular exercise, significantly reduces the likelihood of falling ill.
+## Business Problem: 
 
-Goal & Objective: The objective of this exercise is to build a model, using data that provides the optimum insurance cost for an individual. You have to use the health and habit-related parameters for the estimated cost of insurance
+The healthcare domain holds immense significance in the market due to its direct impact on individuals' lives. Consequently, remaining proactive in this area is crucial. Money plays a pivotal role, especially considering the potentially exorbitant costs of treatment. For individuals without insurance coverage, this can lead to challenging financial circumstances. Medical insurance companies, too, aim to minimize risks by * optimizing insurance costs *, recognizing that maintaining good health ultimately lies in the hands of each individual. Adopting healthy habits, such as a balanced diet and regular exercise, significantly reduces the likelihood of falling ill.
+
+## Goal & Objective: The objective of this exercise is to build a model, using data that provides the optimum insurance cost for an individual. You have to use the health and habit-related parameters for the estimated cost of insurance
 - Target variable: insurance_cost (continuous nature)
 
-Insights
+## Insights
 The dataset doesn't contain any duplicate values
 The dataset contains 25000 entries with 24 features and variables 'bmi' & 'Year_last_admitted' has null values
 
-Distribution (Histogram)
+## Distribution (Histogram)
+
 •	Variable 'vist_doctor_last_1_year', 'bmi' and 'insurance_cost' are right skewed
 
 •	Variable daily_avg_steps & weight follow slightly a normal distribution
 
 •	Variable 'fat_percentage' is slightly left-skewed
 
-Outlier (Boxplot) – Using IQR
+## Outlier (Boxplot) – Using IQR
+
 •	Variable 'regular_checkup_last year', 'visted_doctor_last_1_year', 'daily_avg_steps and bmi has outliers'
 
-Frequency count on categorical column (countplot)
+## Frequency count on categorical column (countplot)
+
 •	Students and business people exercise more than salaried individuals.
 
 •	People who do not participate in adventure sports exercise more than others.
@@ -47,7 +52,8 @@ Frequency count on categorical column (countplot)
 
 •	People who never consume alcohol and those who drink alcohol occasionally exercise more than regular alcohol consumers.
 
-Correlation (Heatmap)
+## Correlation (Heatmap)
+
 •	The weight variable and the insurance_cost target variable are strongly positively related.
 
 •	The Year_last_admitted variable and the insurance_cost target variable are strongly negatively related.
