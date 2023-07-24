@@ -18,7 +18,9 @@ The dataset contains 25000 entries with 24 features and variables 'bmi' & 'Year_
 
 Distribution (Histogram)
 •	Variable 'vist_doctor_last_1_year', 'bmi' and 'insurance_cost' are right skewed
+
 •	Variable daily_avg_steps & weight follow slightly a normal distribution
+
 •	Variable 'fat_percentage' is slightly left-skewed
 
 Outlier (Boxplot) – Using IQR
@@ -26,19 +28,31 @@ Outlier (Boxplot) – Using IQR
 
 Frequency count on categorical column (countplot)
 •	Students and business people exercise more than salaried individuals.
+
 •	People who do not participate in adventure sports exercise more than others.
+
 •	Those who exercise regularly have a lower risk of past heart disease.
+
 •	Those who exercise regularly have a lower risk of other past health issues.
+
 •	People who exercise fall into cholesterol ranges of 125-150 and 150-175, while those who exercise less have the highest cholesterol range of 225-250.
+
 •	Males tend to exercise more than females.
+
 •	Non-smokers and individuals with unknown smoking history exercise more compared to former smokers and frequent smokers.
-•	Hospitals located in Bhuvaneshwar, Jaipur, Mangalapur, and Bangalore customers exercise more frequently, while that hospitals in Pune and Surat exercise less.
+
+•	Hospitals located in Bhuvaneshwar, Jaipur, Mangalapur, and Bangalore customers exercise more frequently, while hospitals in Pune and Surat exercise less.
+
 •	Customers without secondary insurance coverage exercise more than those with secondary coverage.
+
 •	People who never consume alcohol and those who drink alcohol occasionally exercise more than regular alcohol consumers.
 
 Correlation (Heatmap)
 •	The weight variable and the insurance_cost target variable are strongly positively related.
+
 •	The Year_last_admitted variable and the insurance_cost target variable are strongly negatively related.
+
 •	The weight_change_in_last_one_year and Year_last_admitted independent variables have a slight positive correlation.
+
 •	The year_last_admitted and weight-independent variables have a strong negative correlation.
 
