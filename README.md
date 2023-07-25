@@ -48,5 +48,3 @@ The objective of this exercise is to build a model, using data that provides the
 * The weight_change_in_last_one_year and Year_last_admitted independent variables have a slight positive correlation.
 * The year_last_admitted and weight-independent variables have a strong negative correlation.
 
-
-# statistics #dataanalysis #healthcareinsurance #datascience #analytics #visualization #numpy #pandas #matplotlib #seaborn #descriptivestatics
