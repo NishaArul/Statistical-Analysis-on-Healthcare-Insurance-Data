@@ -49,4 +49,4 @@ The objective of this exercise is to build a model, using data that provides the
 * The year_last_admitted and weight-independent variables have a strong negative correlation.
 
 
-#statistics #dataanalysis #healthcareinsurance #datascience #analytics #visualization #numpy #pandas #matplotlib #seaborn #descriptivestat
+# statistics #dataanalysis #healthcareinsurance #datascience #analytics #visualization #numpy #pandas #matplotlib #seaborn #descriptivestatics
